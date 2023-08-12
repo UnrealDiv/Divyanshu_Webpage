@@ -64,7 +64,7 @@ const tick = ()=>{
     material.uniforms.uTime.value = elapsedTime;   
 
     sphereMesh.position.x = Math.sin(elapsedTime*3.0);
-    sphereMesh.position.z = Math.cos(elapsedTime*3.0+5.0)+1.0;
+    sphereMesh.position.z = Math.cos(elapsedTime*3.0+5.0)+50.0;
 
     controls.update();
 requestAnimationFrame(tick);
